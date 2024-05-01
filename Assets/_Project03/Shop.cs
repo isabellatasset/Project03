@@ -9,7 +9,9 @@ public class Shop : MonoBehaviour
 private string _name;
 
 [Header("Shop Keeper's Change to Barter")]
-[SerializeField][Range(0,50)]
+[SerializeField]
+[Range(0,50)]
+[tooltip("You can change the chances shopkeeper will barter with player!")]
 private float _chanceToBarter;
 
 [Header("Weapon Prices")]
@@ -27,5 +29,14 @@ private int _Health;
 private int _Speed;
 [SerializeField]
 private int _Invisibility;
+
+[Header("Dialogue")]
+[SerializeField]
+[tooltip("Shopkeeper speaks upon player detection")]
+[Range(0,10)]
+private int _detectionRadius;
+[TextArea()]
+private string _shopKeeperDialogue;
+
 
 }
