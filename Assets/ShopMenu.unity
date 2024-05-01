@@ -1390,6 +1390,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1247058244}
+  - component: {fileID: 1247058245}
   m_Layer: 0
   m_Name: Potion
   m_TagString: Untagged
@@ -1412,6 +1413,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1247058245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1247058243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d584e7fc305346488f39646b2c50174, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data: {fileID: 11400000, guid: e43b7c61664fdd24697e6f7e50fdb8aa, type: 2}
 --- !u!1 &1307992091
 GameObject:
   m_ObjectHideFlags: 0
@@ -1758,6 +1772,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1467986389}
+  - component: {fileID: 1467986390}
   m_Layer: 0
   m_Name: Food
   m_TagString: Untagged
@@ -1780,6 +1795,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1467986390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1467986388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 132a779f91f87804ebdb9805554e9a7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data: {fileID: 0}
 --- !u!1 &1532880664
 GameObject:
   m_ObjectHideFlags: 0
@@ -1809,7 +1837,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29e17aef06edfda44a398c6725c6a5b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _data: {fileID: 11400000, guid: a5f1dc922df61c348b522a0700bac23b, type: 2}
+  _data: {fileID: 11400000, guid: 0e1cd04cb6f64c84fa755039978a2fb3, type: 2}
 --- !u!4 &1532880666
 Transform:
   m_ObjectHideFlags: 0

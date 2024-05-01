@@ -34,6 +34,14 @@ private int _Speed;
 [SerializeField]
 private int _Invisibility;
 
+[Header("Food Prices")]
+[SerializeField]
+private int _Scraps;
+[SerializeField]
+private int _Meal;
+[SerializeField]
+private int _ThreeCourseDinner;
+
 [Header("Dialogue")]
 [SerializeField]
 [Tooltip("Shopkeeper speaks upon player detection")]
