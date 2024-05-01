@@ -9,16 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 08ecc6dae2a53ed498b78689d41a5eb0, type: 3}
-  m_Name: Common
+  m_Script: {fileID: 11500000, guid: e26a5ca7f3e352f49aa3a7c068b96a84, type: 3}
+  m_Name: Invisibility
   m_EditorClassIdentifier: 
-  _name: Lucky's Goods
-  _shopClass: 1
-  _chanceToBarter: 20
-  _Sword: 200
-  _Axe: 250
-  _Spear: 225
-  _Health: 100
-  _Speed: 150
-  _Invisibility: 250
-  _detectionRadius: 10
+  _name: Harry's Invisible Potion
+  _potionClass: 3
+  _chanceToSell: 1.2
+  _Potency: 127

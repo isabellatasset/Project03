@@ -13,7 +13,6 @@ public ShopData Data => _data;
 private void Awake()
 {
     Debug.Log("Name: " + _data.Name);
-    Debug.Log("Rarity:" + _data.Rarity);
 }
 
 }

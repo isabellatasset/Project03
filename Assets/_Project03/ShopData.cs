@@ -43,4 +43,5 @@ private int _detectionRadius;
 private string _shopKeeperDialogue;
 
 public string Name => _name;
+
 }

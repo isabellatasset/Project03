@@ -9,16 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 08ecc6dae2a53ed498b78689d41a5eb0, type: 3}
-  m_Name: Common
+  m_Script: {fileID: 11500000, guid: aae3850c8d9b0b64cb02226ff6dcdce0, type: 3}
+  m_Name: StrongSword
   m_EditorClassIdentifier: 
-  _name: Lucky's Goods
-  _shopClass: 1
-  _chanceToBarter: 20
-  _Sword: 200
-  _Axe: 250
-  _Spear: 225
-  _Health: 100
-  _Speed: 150
-  _Invisibility: 250
-  _detectionRadius: 10
+  _name: Ultra Rare Demon Slaying Crazy Epic Sword
+  _weaponClass: 3
+  _chanceToSell: 1
+  _Damage: 332

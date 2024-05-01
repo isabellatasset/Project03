@@ -2,17 +2,26 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PotionData : MonoBehaviour
-{
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+[CreateAssetMenu(fileName = "PotionData_", menuName ="UnityData/Potion")]
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+public class PotionData : ScriptableObject
+{
+[Header("Potion Information")]
+[SerializeField]
+private string _name;
+
+[Header("Chance of Selling Potion")]
+[SerializeField]
+private PotionClass _potionClass = PotionClass.None;
+[SerializeField]
+[Range(0,30)]
+[Tooltip("You can change the chances shopkeeper will sell this item to player!")]
+private float _chanceToSell;
+
+[Header("Potion Potency")]
+[SerializeField]
+private int _Potency;
+
+public string Name => _name;
+
 }

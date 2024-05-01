@@ -4,15 +4,13 @@ using UnityEngine;
 
 public class Weapon : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+[SerializeField]
+private WeaponData _data;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+public WeaponData Data => _data;
+
+private void Awake()
+{
+    Debug.Log("Name: " + _data.Name);
+}
 }

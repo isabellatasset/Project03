@@ -12,13 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08ecc6dae2a53ed498b78689d41a5eb0, type: 3}
   m_Name: Rare
   m_EditorClassIdentifier: 
-  _name: 
+  _name: Chuchu's Pavilion
   _shopClass: 2
-  _chanceToBarter: 0
-  _Sword: 0
-  _Axe: 0
-  _Spear: 0
-  _Health: 0
-  _Speed: 0
-  _Invisibility: 0
-  _detectionRadius: 0
+  _chanceToBarter: 25
+  _Sword: 125
+  _Axe: 175
+  _Spear: 150
+  _Health: 50
+  _Speed: 100
+  _Invisibility: 175
+  _detectionRadius: 5

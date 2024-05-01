@@ -12,13 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08ecc6dae2a53ed498b78689d41a5eb0, type: 3}
   m_Name: Mystical
   m_EditorClassIdentifier: 
-  _name: 
+  _name: Targel's Hut
   _shopClass: 3
-  _chanceToBarter: 0
-  _Sword: 0
-  _Axe: 0
-  _Spear: 0
-  _Health: 0
-  _Speed: 0
-  _Invisibility: 0
-  _detectionRadius: 0
+  _chanceToBarter: 45
+  _Sword: 50
+  _Axe: 100
+  _Spear: 75
+  _Health: 30
+  _Speed: 40
+  _Invisibility: 50
+  _detectionRadius: 3

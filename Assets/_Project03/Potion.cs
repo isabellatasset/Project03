@@ -4,15 +4,13 @@ using UnityEngine;
 
 public class Potion : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+[SerializeField]
+private PotionData _data;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+public PotionData Data => _data;
+
+private void Awake()
+{
+    Debug.Log("Name: " + _data.Name);
+}
 }
