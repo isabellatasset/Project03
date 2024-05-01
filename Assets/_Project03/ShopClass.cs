@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Shop : MonoBehaviour
+public enum ShopClass
 {
-
-[SerializeField]
-private ShopData _data;
-
+None = 0,
+Common,
+Rare,
+Mystical
 }
