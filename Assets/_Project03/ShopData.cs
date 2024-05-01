@@ -9,6 +9,7 @@ public class ShopData : ScriptableObject
 [Header("Shop Information")]
 [SerializeField]
 private string _name;
+
 [Header("Shop Keeper's Change to Barter")]
 [SerializeField]
 private ShopClass _shopClass = ShopClass.None;
@@ -40,4 +41,6 @@ private int _Invisibility;
 private int _detectionRadius;
 [TextArea()]
 private string _shopKeeperDialogue;
+
+public string Name => _name;
 }
